@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James Kyomole — Portfolio | Gestionnaire de Systèmes d'Information</title>
+<meta name="description" content="Portfolio professionnel de James Kyomole — Gestionnaire de Systèmes d'Information, spécialiste Data & Infrastructure IT.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/img/favicon-192.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="loader" aria-hidden="true"><div class="loader-spinner"></div></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="brand">JK<span class="brand-dot">.</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" data-i18n="nav.home">Accueil</a>
+      <a href="#about" data-i18n="nav.about">Profil</a>
+      <a href="#skills" data-i18n="nav.skills">Compétences</a>
+      <a href="#experience" data-i18n="nav.experience">Expériences</a>
+      <a href="#projects" data-i18n="nav.projects">Projets</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle" type="button" aria-label="Changer de langue">FR</button>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Bonjour, je suis</p>
+        <h1 id="heroName">MUHINDO KYOMOLE James</h1>
+        <p class="hero-title" id="heroTitle"></p>
+        <p class="hero-tagline" id="heroTagline"></p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="heroCtaPrimary"></a>
+          <a href="#" id="heroCtaSecondary" class="btn btn-outline" download></a>
+        </div>
+        <ul class="hero-facts" id="heroFacts"></ul>
+      </div>
+      <div class="hero-media">
+        <div class="hero-photo-frame">
+          <img id="heroPhoto" src="assets/img/profile.jpg" alt="Photo de James Kyomole">
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Défiler vers le bas"><span></span></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-inner">
+      <div class="about-media">
+        <img id="aboutPhoto" src="assets/img/about.jpg" alt="James Kyomole lors de sa soutenance publique à l'ISC/Beni">
+      </div>
+      <div class="about-text">
+        <p class="section-kicker" data-i18n="about.kicker">Profil</p>
+        <h2 data-i18n="about.title">À propos de moi</h2>
+        <p id="aboutSummary"></p>
+
+        <div class="about-columns">
+          <div>
+            <h3 data-i18n="about.educationTitle">Formation académique</h3>
+            <ul id="educationList" class="plain-list"></ul>
+          </div>
+          <div>
+            <h3 data-i18n="about.certificationsTitle">Certifications</h3>
+            <ul id="certificationsList" class="plain-list"></ul>
+          </div>
+        </div>
+
+        <div class="languages-block">
+          <h3 data-i18n="about.languagesTitle">Langues</h3>
+          <div id="languagesList" class="languages-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-kicker center" data-i18n="skills.kicker">Expertise</p>
+      <h2 class="center" data-i18n="skills.title">Domaines de compétences</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="section-kicker center" data-i18n="experience.kicker">Parcours</p>
+      <h2 class="center" data-i18n="experience.title">Expériences professionnelles</h2>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <p class="section-kicker center" data-i18n="projects.kicker">Réalisations</p>
+      <h2 class="center" data-i18n="projects.title">Projets</h2>
+      <p class="section-subtitle center" data-i18n="projects.subtitle">Deux études de cas en analyse de données et suivi budgétaire sous Excel, de la collecte brute au tableau de bord décisionnel.</p>
+      <div id="projectsList" class="projects-list"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <p class="section-kicker" data-i18n="contact.kicker">Contact</p>
+        <h2 id="contactTitle"></h2>
+        <p id="contactSubtitle"></p>
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <label for="cf-name" data-i18n="contact.form.name">Nom complet</label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email" data-i18n="contact.form.email">Adresse email</label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-subject" data-i18n="contact.form.subject">Sujet</label>
+          <input type="text" id="cf-subject" name="subject">
+        </div>
+        <div class="form-row">
+          <label for="cf-message" data-i18n="contact.form.message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="contactSubmit"></button>
+        <p class="form-note" id="formNote" data-i18n="contact.form.note">Ce formulaire vous envoie directement un email — vous pouvez aussi me joindre via les liens ci-contre.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="footerYear"></span> James Kyomole. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+    <a href="admin/index.html" class="admin-link" data-i18n="footer.admin">Espace administrateur</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

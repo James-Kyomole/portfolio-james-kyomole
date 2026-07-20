@@ -1,0 +1,11 @@
+# Fichiers sources originaux (déjà repris/optimisés dans assets/ et data/)
+CURRICULUM VITAE MUHINDO KYOMOLE JAMES.docx
+Classeur2.xlsx
+Classeur3.xlsx
+DSC_0441.jpg
+DSC_2709.jpg
+
+# Système
+.DS_Store
+Thumbs.db
+*.log

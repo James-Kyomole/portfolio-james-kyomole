@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "siteName": "James Kyomole — Portfolio",
+    "lastUpdated": "2026-07-20"
+  },
+  "profile": {
+    "name": "MUHINDO KYOMOLE James",
+    "title": {
+      "fr": "Gestionnaire de Systèmes d'Information | Spécialiste Data & Infrastructure IT",
+      "en": "Information Systems Manager | Data & IT Infrastructure Specialist"
+    },
+    "location": "Beni, Nord-Kivu — RDC",
+    "phone": "+243 993 612 721",
+    "email": "jameskyomole@gmail.com",
+    "linkedin": "",
+    "cvFile": "cv/CV_James_Kyomole.pdf",
+    "photoHero": "assets/img/profile.jpg",
+    "photoAbout": "assets/img/about.jpg",
+    "tagline": {
+      "fr": "Je transforme les données et les systèmes d'information en décisions et en performance.",
+      "en": "I turn data and information systems into decisions and performance."
+    },
+    "heroCtaPrimary": { "fr": "Voir mes projets", "en": "See my projects" },
+    "heroCtaSecondary": { "fr": "Télécharger mon CV", "en": "Download my CV" },
+    "summary": {
+      "fr": "Professionnel de l'informatique orienté solutions et résultats, titulaire d'une Licence en Informatique de Gestion (Conception des Systèmes d'Information). Fort de plus de 4 années d'expérience polyvalente, j'allie une expertise technique pointue (administration systèmes, modélisation de bases de données, développement web) à des compétences avancées en gestion du cycle de projet, gouvernance des données et MEAL. Maîtrisant les progiciels de gestion d'entreprise, notamment Sage Comptabilité i7, je combine une vision technologique et fonctionnelle pour piloter la transformation digitale, manager des infrastructures IT complexes, optimiser les systèmes d'information de gestion et appuyer la performance opérationnelle des organisations privées, éducatives ou humanitaires dans des environnements exigeants.",
+      "en": "Results-driven IT professional holding a Bachelor's degree in Management Information Systems (Information Systems Design). With more than 4 years of versatile experience, I combine strong technical expertise (systems administration, database modeling, web development) with advanced project-cycle management, data governance and MEAL skills. Proficient in enterprise management software, notably Sage Accounting i7, I bring together a technological and functional vision to drive digital transformation, manage complex IT infrastructures, optimize management information systems and support the operational performance of private, educational or humanitarian organizations in demanding environments."
+    },
+    "quickFacts": [
+      { "icon": "briefcase", "fr": "4+ années d'expérience", "en": "4+ years of experience" },
+      { "icon": "graduation", "fr": "Licence en Informatique de Gestion", "en": "B.Sc. in Management Information Systems" },
+      { "icon": "map", "fr": "Basé à Beni, RDC — disponible à distance", "en": "Based in Beni, DRC — available remotely" },
+      { "icon": "globe", "fr": "5 langues parlées", "en": "5 languages spoken" }
+    ]
+  },
+  "skills": [
+    {
+      "group": { "fr": "Gouvernance & Gestion des Données", "en": "Data Governance & Management" },
+      "items": ["MERISE", "Administration SQL", "Sécurité & sauvegarde des données", "Conformité"]
+    },
+    {
+      "group": { "fr": "Ingénierie de Projet & MEAL", "en": "Project Engineering & MEAL" },
+      "items": ["Planification stratégique", "Suivi-évaluation", "Indicateurs de performance", "Gestion budgétaire", "Coordination d'équipes terrain"]
+    },
+    {
+      "group": { "fr": "Business Intelligence & Analyse", "en": "Business Intelligence & Analytics" },
+      "items": ["Excel avancé", "Power BI", "Power Query", "SPSS", "Stata", "Kobo / ODK"]
+    },
+    {
+      "group": { "fr": "Développement Web & Solutions ERP", "en": "Web Development & ERP Solutions" },
+      "items": ["WordPress", "HTML5 / CSS3", "C#", "Sage Comptabilité i7", "MS Access"]
+    },
+    {
+      "group": { "fr": "Formation & Conduite du Changement", "en": "Training & Change Management" },
+      "items": ["Ingénierie pédagogique", "Formation technique", "Renforcement des capacités"]
+    }
+  ],
+  "experience": [
+    {
+      "role": { "fr": "Informaticien — Gestionnaire de Bases de Données & IT", "en": "IT Officer — Database & IT Manager" },
+      "org": "ASSECCAF — RDC",
+      "period": { "fr": "Janvier 2024 – Décembre 2024", "en": "January 2024 – December 2024" },
+      "bullets": {
+        "fr": [
+          "Garant de la haute disponibilité, de la sécurité et de l'intégrité des bases de données de l'organisation.",
+          "Conception et implémentation de protocoles standardisés pour la collecte, le traitement automatisé et l'analyse des données institutionnelles.",
+          "Supervision, configuration et maintenance du parc d'équipements technologiques et des outils de déploiement terrain.",
+          "Mise en place d'une politique de sauvegarde et de plans de contingence contre la perte et la corruption des données."
+        ],
+        "en": [
+          "Ensured high availability, security and integrity of the organization's databases.",
+          "Designed and implemented standardized protocols for collecting, automatically processing and analyzing institutional data.",
+          "Supervised, configured and maintained the technology equipment fleet and field deployment tools.",
+          "Established a backup policy and contingency plans against data loss and corruption."
+        ]
+      }
+    },
+    {
+      "role": { "fr": "Chargé de Projet Suivi-Évaluation & Administrateur IT", "en": "M&E Project Officer & IT Administrator" },
+      "org": "ONG IDAD",
+      "period": { "fr": "Juin 2022 – Juin 2023", "en": "June 2022 – June 2023" },
+      "bullets": {
+        "fr": [
+          "Co-pilotage, planification et coordination des activités du projet « Congo plus vert et sans faim » sur tout son cycle ; suivi budgétaire et analyse des indicateurs de performance.",
+          "Développement du cadre MEAL, rédaction des rapports d'impact, documents de communication et animation de sessions de renforcement de capacités pour les équipes.",
+          "Administration complète du système informatique (licences, maintenance préventive, sécurité/antivirus, politiques de sauvegarde).",
+          "Webmestre officiel de l'organisation (conception, mise à jour et optimisation du site web)."
+        ],
+        "en": [
+          "Co-led, planned and coordinated activities of the \"Congo plus vert et sans faim\" project across its full cycle; budget monitoring and performance indicator analysis.",
+          "Developed the MEAL framework, wrote impact reports and communication materials, and led capacity-building sessions for teams.",
+          "Full administration of the IT system (licenses, preventive maintenance, security/antivirus, backup policies).",
+          "Official webmaster of the organization (design, updates and optimization of the website)."
+        ]
+      }
+    },
+    {
+      "role": { "fr": "Formateur Expert en Technologies de l'Information", "en": "Expert IT Trainer" },
+      "org": "BAKAT COMMUNICATION",
+      "period": { "fr": "Juillet 2021 – Septembre 2023", "en": "July 2021 – September 2023" },
+      "bullets": {
+        "fr": [
+          "Conception de modules de formation professionnelle et transfert de compétences pour des profils techniques et administratifs.",
+          "Domaines : Bureautique avancée (Excel, Access), Sage Comptabilité i7, Power BI, Modélisation MERISE, Gestion de contenu WordPress."
+        ],
+        "en": [
+          "Designed professional training modules and skills transfer for technical and administrative profiles.",
+          "Areas: advanced office tools (Excel, Access), Sage Accounting i7, Power BI, MERISE modeling, WordPress content management."
+        ]
+      }
+    },
+    {
+      "role": { "fr": "Administrateur Réseau & Enseignant IT", "en": "Network Administrator & IT Teacher" },
+      "org": "SAVANA SCHOOL",
+      "period": { "fr": "Septembre 2020 – à nos jours", "en": "September 2020 – present" },
+      "bullets": {
+        "fr": [
+          "Conception, déploiement et administration de l'infrastructure réseau de l'établissement scolaire.",
+          "Maintenance corrective et préventive des équipements informatiques et support aux utilisateurs.",
+          "Gestion de la communication digitale à travers l'administration du site web de l'école.",
+          "Enseignement de l'informatique générale, de l'architecture des ordinateurs et de la logique algorithmique."
+        ],
+        "en": [
+          "Designed, deployed and administered the school's network infrastructure.",
+          "Corrective and preventive maintenance of IT equipment and user support.",
+          "Managed digital communication through administration of the school's website.",
+          "Taught general computing, computer architecture and algorithmic logic."
+        ]
+      }
+    },
+    {
+      "role": { "fr": "Consultant IT / Data & MEAL", "en": "IT Consultant / Data & MEAL" },
+      "org": "ONG SOFEPADI",
+      "period": { "fr": "Octobre 2021", "en": "October 2021" },
+      "bullets": {
+        "fr": [
+          "Digitalisation des processus de collecte par la modélisation et le déploiement d'outils mobiles dynamiques sur KoboCollect.",
+          "Recrutement, formation technique et coordination opérationnelle d'une équipe d'enquêteurs sur le terrain.",
+          "Analyse avancée des données et rédaction de rapports d'évaluation stratégique destinés aux partenaires financiers."
+        ],
+        "en": [
+          "Digitalized collection processes by modeling and deploying dynamic mobile tools on KoboCollect.",
+          "Recruited, technically trained and operationally coordinated a team of field enumerators.",
+          "Advanced data analysis and writing of strategic evaluation reports for financial partners."
+        ]
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": { "fr": "Licence en Informatique de Gestion — Option : Conception des Systèmes d'Information", "en": "Bachelor's Degree in Management Information Systems — Information Systems Design" },
+      "org": "ISC-Beni",
+      "year": "2023"
+    },
+    {
+      "degree": { "fr": "Graduat en Informatique de Gestion", "en": "Associate Degree in Management Information Systems" },
+      "org": "ISC-Beni",
+      "year": "2020"
+    },
+    {
+      "degree": { "fr": "Diplôme d'État — Section Commerciale & Informatique", "en": "State Diploma — Business & Computer Science" },
+      "org": "Institut de l'Indépendance, Beni",
+      "year": "2014"
+    }
+  ],
+  "certifications": [
+    {
+      "fr": "Certification Spécialisée : SQL & Power BI appliqués à l'Analyse des Données — Eurêka Services (2025)",
+      "en": "Specialized Certification: SQL & Power BI for Data Analysis — Eurêka Services (2025)"
+    },
+    {
+      "fr": "Certification d'Expertise : Collecte, Traitement, Analyse & Visualisation des Données (KoboToolbox, Excel avancé, SPSS, Stata, Power BI) — Eurêka Services (2025)",
+      "en": "Expert Certification: Data Collection, Processing, Analysis & Visualization (KoboToolbox, advanced Excel, SPSS, Stata, Power BI) — Eurêka Services (2025)"
+    }
+  ],
+  "languages": [
+    { "name": { "fr": "Français", "en": "French" }, "level": { "fr": "Courant / Langue de travail", "en": "Fluent / Working language" }, "pct": 100 },
+    { "name": { "fr": "Swahili", "en": "Swahili" }, "level": { "fr": "Courant / Langue de travail", "en": "Fluent / Working language" }, "pct": 100 },
+    { "name": { "fr": "Kinande", "en": "Kinande" }, "level": { "fr": "Langue maternelle", "en": "Native language" }, "pct": 100 },
+    { "name": { "fr": "Lingala", "en": "Lingala" }, "level": { "fr": "Très bonne maîtrise professionnelle", "en": "Very good professional command" }, "pct": 80 },
+    { "name": { "fr": "Anglais", "en": "English" }, "level": { "fr": "Niveau professionnel / technique", "en": "Professional / technical level" }, "pct": 55 }
+  ],
+  "projects": [
+    {
+      "id": "emballagepro",
+      "title": { "fr": "Tableau de bord des achats trimestriels — EmballagePro CI", "en": "Quarterly Purchasing Dashboard — EmballagePro CI" },
+      "period": "T1 2026",
+      "tools": ["Excel avancé", "Tableau croisé dynamique", "Graphiques"],
+      "description": {
+        "fr": "Analyse d'un relevé trimestriel de compte fournisseur (28 commandes, 5 catégories de fournitures d'emballage) pour un client de distribution. Construction d'un tableau croisé dynamique afin d'identifier la répartition des dépenses par catégorie et par mois, et de calculer automatiquement les totaux, la TVA et le montant dû.",
+        "en": "Analysis of a quarterly vendor account statement (28 purchase orders, 5 packaging supply categories) for a distribution client. Built a pivot table to break down spending by category and by month, and to automatically compute totals, VAT and the amount due."
+      },
+      "highlights": {
+        "fr": [
+          "2 013 930 FCFA de dépenses hors taxes sur le trimestre, réparties sur 5 catégories",
+          "Montant total dû (TVA 18% incluse) : 2 376 437 FCFA",
+          "Catégorie « Cartons » = 1ère poste de dépense (30,9 % du total)",
+          "Tendance mensuelle en hausse : 651 000 → 601 920 → 761 010 FCFA"
+        ],
+        "en": [
+          "2,013,930 FCFA in pre-tax spending over the quarter, across 5 categories",
+          "Total amount due (incl. 18% VAT): 2,376,437 FCFA",
+          "\"Cartons\" (boxes) is the #1 spending category (30.9% of total)",
+          "Rising monthly trend: 651,000 → 601,920 → 761,010 FCFA"
+        ]
+      },
+      "chart": {
+        "type": "mixed",
+        "categories": ["Cartons", "Calage", "Mousse", "Adhésif", "Étiquettes"],
+        "byCategory": [622200, 467730, 324600, 320400, 279000],
+        "months": ["Janvier", "Février", "Mars"],
+        "monthsEn": ["January", "February", "March"],
+        "byMonth": [651000, 601920, 761010]
+      },
+      "file": "data/EmballagePro_Releve_T1.xlsx"
+    },
+    {
+      "id": "budget-tracker",
+      "title": { "fr": "Modèle de suivi budgétaire mensuel", "en": "Monthly Budget Tracking Template" },
+      "period": "2026",
+      "tools": ["Excel avancé", "Formules SOMME.SI", "Mise en forme conditionnelle"],
+      "description": {
+        "fr": "Conception d'un gabarit réutilisable de suivi budgétaire pour une petite structure : synthèse par catégorie, détail des dépenses avec total cumulé, suivi mensuel avec évolution en %, et comparatif budget prévisionnel vs réel avec calcul automatique des écarts. Alimenté ici avec des données d'exemple pour démonstration.",
+        "en": "Design of a reusable budget-tracking template for a small organization: category summary, expense detail with running total, monthly tracking with % change, and planned-vs-actual budget comparison with automatic variance calculation. Populated here with sample data for demonstration."
+      },
+      "highlights": {
+        "fr": [
+          "5 catégories suivies : Loyer, Charges, Fournitures, Marketing, Autres",
+          "Écart budget vs réel calculé automatiquement par formule",
+          "Évolution mensuelle des dépenses en %, sans ressaisie manuelle"
+        ],
+        "en": [
+          "5 tracked categories: Rent, Utilities, Supplies, Marketing, Other",
+          "Budget vs actual variance computed automatically by formula",
+          "Month-over-month expense change in %, with no manual re-entry"
+        ]
+      },
+      "chart": {
+        "type": "budget",
+        "categories": ["Loyer", "Charges", "Fournitures", "Marketing", "Autres"],
+        "categoriesEn": ["Rent", "Utilities", "Supplies", "Marketing", "Other"],
+        "budget": [450000, 120000, 90000, 150000, 60000],
+        "actual": [450000, 138500, 76000, 165000, 52000],
+        "months": ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Août", "Sep", "Oct", "Nov", "Déc"],
+        "monthsEn": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        "monthlyTotals": [82500, 77500, 127500, 37500, 84000, 89500, 37500, 73500, 84500, 112500, 37500, 37500]
+      },
+      "file": "data/Suivi_Budgetaire_Mensuel.xlsx"
+    }
+  ],
+  "contact": {
+    "formspreeEndpoint": "https://formspree.io/f/VOTRE_ID_FORMSPREE",
+    "whatsapp": "243993612721",
+    "sectionTitle": { "fr": "Discutons de votre prochain projet", "en": "Let's talk about your next project" },
+    "sectionSubtitle": {
+      "fr": "Disponible pour des missions en administration systèmes, gouvernance de données, business intelligence ou gestion de projets IT.",
+      "en": "Available for assignments in systems administration, data governance, business intelligence or IT project management."
+    }
+  }
+}

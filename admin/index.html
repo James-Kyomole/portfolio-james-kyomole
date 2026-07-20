@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Espace administrateur — James Kyomole</title>
+<link rel="icon" type="image/png" href="../assets/img/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+
+<header class="admin-topbar">
+  <div class="container admin-topbar-inner">
+    <a href="../index.html" class="brand">JK<span class="brand-dot">.</span> <span class="admin-tag">Admin</span></a>
+    <div id="topbarStatus" class="admin-status"></div>
+  </div>
+</header>
+
+<main class="container admin-main">
+
+  <!-- GATE -->
+  <section id="viewGate" class="admin-view">
+    <div class="admin-card admin-card-narrow">
+      <h1>Espace administrateur</h1>
+      <p class="admin-hint">
+        Cet écran filtre simplement les visiteurs occasionnels — ce n'est <strong>pas</strong> une vraie protection.
+        La sécurité réelle vient de votre <strong>jeton d'accès personnel GitHub</strong>, que vous seul possédez et qui sera demandé à l'étape suivante.
+      </p>
+      <form id="gateForm">
+        <div class="form-row">
+          <label for="gatePass">Phrase de passage</label>
+          <input type="password" id="gatePass" autocomplete="off" placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrer</button>
+        <p id="gateError" class="admin-error"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONNECT -->
+  <section id="viewConnect" class="admin-view" hidden>
+    <div class="admin-card admin-card-narrow">
+      <h1>Connexion à GitHub</h1>
+      <p class="admin-hint">
+        Renseignez le dépôt GitHub qui héberge ce site et un <strong>jeton d'accès personnel (PAT)</strong> avec la permission
+        <em>Contents: Read and write</em> sur ce seul dépôt. Le jeton n'est envoyé qu'à l'API GitHub — jamais stocké ailleurs que dans votre navigateur.
+      </p>
+      <form id="connectForm">
+        <div class="form-row">
+          <label for="cfgOwner">Utilisateur / organisation GitHub</label>
+          <input type="text" id="cfgOwner" placeholder="ex. jameskyomole" required>
+        </div>
+        <div class="form-row">
+          <label for="cfgRepo">Nom du dépôt</label>
+          <input type="text" id="cfgRepo" placeholder="ex. portfolio-james-kyomole" required>
+        </div>
+        <div class="form-row">
+          <label for="cfgBranch">Branche</label>
+          <input type="text" id="cfgBranch" value="main" required>
+        </div>
+        <div class="form-row">
+          <label for="cfgToken">Jeton d'accès personnel (PAT)</label>
+          <input type="password" id="cfgToken" placeholder="github_pat_..." required autocomplete="off">
+        </div>
+        <label class="admin-checkbox">
+          <input type="checkbox" id="cfgRemember"> Se souvenir de ces informations sur cet appareil (localStorage)
+        </label>
+        <div class="admin-actions">
+          <button type="submit" class="btn btn-primary">Se connecter et charger le contenu</button>
+        </div>
+        <p id="connectError" class="admin-error"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- EDITOR -->
+  <section id="viewEditor" class="admin-view" hidden>
+    <div class="admin-savebar">
+      <div>
+        <strong id="editorRepoLabel"></strong>
+        <span class="admin-hint-inline">Les modifications sont écrites directement dans votre dépôt GitHub ; Vercel republie le site automatiquement en ~1 minute.</span>
+      </div>
+      <div class="admin-savebar-actions">
+        <button id="btnDisconnect" class="btn btn-outline btn-sm" type="button">Se déconnecter</button>
+        <button id="btnSave" class="btn btn-primary" type="button">Enregistrer &amp; publier</button>
+      </div>
+    </div>
+    <p id="saveStatus" class="admin-save-status"></p>
+
+    <nav class="admin-subnav">
+      <a href="#panel-profile">Profil</a>
+      <a href="#panel-skills">Compétences</a>
+      <a href="#panel-experience">Expériences</a>
+      <a href="#panel-education">Formation</a>
+      <a href="#panel-languages">Langues</a>
+      <a href="#panel-projects">Projets</a>
+      <a href="#panel-contact">Contact</a>
+      <a href="#panel-files">Fichiers (photos / CV)</a>
+    </nav>
+
+    <div id="panel-profile" class="admin-panel">
+      <h2>Profil</h2>
+      <div id="formProfile"></div>
+    </div>
+
+    <div id="panel-skills" class="admin-panel">
+      <h2>Compétences</h2>
+      <div id="formSkills"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="skills">+ Ajouter un groupe de compétences</button>
+    </div>
+
+    <div id="panel-experience" class="admin-panel">
+      <h2>Expériences professionnelles</h2>
+      <div id="formExperience"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="experience">+ Ajouter une expérience</button>
+    </div>
+
+    <div id="panel-education" class="admin-panel">
+      <h2>Formation &amp; certifications</h2>
+      <h3>Formation académique</h3>
+      <div id="formEducation"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="education">+ Ajouter un diplôme</button>
+      <h3 style="margin-top:30px">Certifications</h3>
+      <div id="formCertifications"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="certifications">+ Ajouter une certification</button>
+    </div>
+
+    <div id="panel-languages" class="admin-panel">
+      <h2>Langues</h2>
+      <div id="formLanguages"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="languages">+ Ajouter une langue</button>
+    </div>
+
+    <div id="panel-projects" class="admin-panel">
+      <h2>Projets</h2>
+      <div id="formProjects"></div>
+      <button type="button" class="btn btn-outline btn-sm" data-add="projects">+ Ajouter un projet</button>
+    </div>
+
+    <div id="panel-contact" class="admin-panel">
+      <h2>Contact</h2>
+      <div id="formContact"></div>
+    </div>
+
+    <div id="panel-files" class="admin-panel">
+      <h2>Fichiers (photos / CV)</h2>
+      <p class="admin-hint">Le remplacement d'un fichier est publié immédiatement (indépendamment du bouton "Enregistrer &amp; publier" ci-dessus).</p>
+      <div id="formFiles"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>
