@@ -38,7 +38,7 @@
     "experience.title": {fr:"Expériences professionnelles", en:"Professional experience"},
     "projects.kicker": {fr:"Réalisations", en:"Work"},
     "projects.title": {fr:"Projets", en:"Projects"},
-    "projects.subtitle": {fr:"Deux études de cas en analyse de données et suivi budgétaire sous Excel, de la collecte brute au tableau de bord décisionnel.", en:"Two case studies in data analysis and budget tracking with Excel, from raw collection to decision-ready dashboards."},
+        "projects.subtitle": {fr:"Cinq études de cas en analyse de données, Business Intelligence et suivi budgétaire (Excel, Power BI), de la collecte brute au tableau de bord décisionnel.", en:"Five case studies in data analysis, Business Intelligence and budget tracking (Excel, Power BI), from raw collection to decision-ready dashboards."},
     "projects.categoryBreakdown": {fr:"Répartition par catégorie", en:"Breakdown by category"},
     "projects.monthlyTrend": {fr:"Évolution mensuelle", en:"Monthly trend"},
     "projects.budgetVsActual": {fr:"Budget prévu vs réel", en:"Budget vs actual"},
