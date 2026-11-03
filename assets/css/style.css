@@ -108,7 +108,7 @@ button{ font-family:inherit; cursor:pointer; }
     var(--paper-soft);
   position:relative; overflow:hidden;
 }
-.hero-inner{ display:grid; grid-template-columns:1fr; gap:60px; align-items:center; }
+.hero-inner{ display:grid; grid-template-columns:1.15fr .85fr; gap:60px; align-items:center; }
 .eyebrow{
   display:inline-block; font-weight:700; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase;
   color:var(--accent); margin-bottom:14px;
