@@ -76,23 +76,18 @@
       }
     },
     {
-      "role": { "fr": "Chargé de Projet Suivi-Évaluation & Administrateur IT", "en": "M&E Project Officer & IT Administrator" },
+            "role": { "fr": "Gestionnaire des Bases de Données", "en": "Database Manager" },
       "org": "ONG IDAD",
-      "period": { "fr": "Juin 2022 – Juin 2023", "en": "June 2022 – June 2023" },
+      "period": { "fr": "Janvier 2021 – Décembre 2022", "en": "January 2021 – December 2022" },
       "bullets": {
         "fr": [
-          "Co-pilotage, planification et coordination des activités du projet « Congo plus vert et sans faim » sur tout son cycle ; suivi budgétaire et analyse des indicateurs de performance.",
-          "Développement du cadre MEAL, rédaction des rapports d'impact, documents de communication et animation de sessions de renforcement de capacités pour les équipes.",
-          "Administration complète du système informatique (licences, maintenance préventive, sécurité/antivirus, politiques de sauvegarde).",
-          "Webmestre officiel de l'organisation (conception, mise à jour et optimisation du site web)."
+          "Gestion et sécurisation des bases de données de l'organisation, dans le cadre de ses activités de développement agroforestier durable."
         ],
         "en": [
-          "Co-led, planned and coordinated activities of the \"Congo plus vert et sans faim\" project across its full cycle; budget monitoring and performance indicator analysis.",
-          "Developed the MEAL framework, wrote impact reports and communication materials, and led capacity-building sessions for teams.",
-          "Full administration of the IT system (licenses, preventive maintenance, security/antivirus, backup policies).",
-          "Official webmaster of the organization (design, updates and optimization of the website)."
+          "Managed and secured the organization's databases, as part of its sustainable agroforestry development activities."
         ]
       }
+}
     },
     {
       "role": { "fr": "Formateur Expert en Technologies de l'Information", "en": "Expert IT Trainer" },
