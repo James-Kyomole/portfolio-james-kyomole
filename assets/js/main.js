@@ -82,8 +82,6 @@
     document.getElementById("heroName").textContent = profile.name;
     document.getElementById("heroTitle").textContent = tf(profile.title);
     document.getElementById("heroTagline").textContent = tf(profile.tagline);
-    document.getElementById("heroPhoto").src = profile.photoHero;
-    document.getElementById("aboutPhoto").src = profile.photoAbout;
 
     var primary = document.getElementById("heroCtaPrimary");
     primary.textContent = tf(profile.heroCtaPrimary);
