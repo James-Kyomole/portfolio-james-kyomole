@@ -166,6 +166,10 @@
     {
       "fr": "Certification d'Expertise : Collecte, Traitement, Analyse & Visualisation des Données (KoboToolbox, Excel avancé, SPSS, Stata, Power BI) — Eurêka Services (2025)",
       "en": "Expert Certification: Data Collection, Processing, Analysis & Visualization (KoboToolbox, advanced Excel, SPSS, Stata, Power BI) — Eurêka Services (2025)"
+    },
+    {
+      "fr": "Certification en Claude IA pour l'Analyse des Données — Eurêka Services (2026)",
+      "en": "Claude AI for Data Analysis Certification — Eurêka Services (2026)"
     }
   ],
   "languages": [
@@ -241,6 +245,80 @@
         "monthlyTotals": [82500, 77500, 127500, 37500, 84000, 89500, 37500, 73500, 84500, 112500, 37500, 37500]
       },
       "file": "data/Suivi_Budgetaire_Mensuel.xlsx"
+    },
+    {
+      "id": "powerbi-rapport-vente",
+      "title": { "fr": "Rapport de vente Power BI", "en": "Power BI Sales Report" },
+      "period": "2025",
+      "tools": ["Power BI Desktop", "Power Query", "DAX"],
+      "description": {
+        "fr": "Rapport d'analyse commerciale construit à partir d'un modèle de données client et facturation, avec hiérarchie de dates (année/mois).",
+        "en": "Sales analysis report built from a customer and invoicing data model, with a year/month date hierarchy."
+      },
+      "highlights": {
+        "fr": [
+          "Graphique à barres des ventes par catégorie de client",
+          "Carte géographique des ventes par État",
+          "Table croisée avec cumul annuel et variation % d'une année sur l'autre",
+          "Courbe d'évolution mensuelle des quantités vendues"
+        ],
+        "en": [
+          "Bar chart of sales by customer category",
+          "Geographic map of sales by state",
+          "Pivot table with year-to-date total and year-over-year % change",
+          "Monthly trend of quantities sold"
+        ]
+      },
+      "chart": { "type": "mixed", "categories": [], "byCategory": [], "months": [], "monthsEn": [], "byMonth": [] },
+      "file": ""
+    },
+    {
+      "id": "powerbi-kin-marche",
+      "title": { "fr": "Dashboard retail « Kin Marché »", "en": "« Kin Marché » Retail Dashboard" },
+      "period": "2025",
+      "tools": ["Power BI Desktop", "Power Query"],
+      "description": {
+        "fr": "Tableau de bord de suivi commercial avec filtres interactifs (produit, détaillant, état, année) et indicateurs clés de performance.",
+        "en": "Retail performance dashboard with interactive filters (product, retailer, state, year) and key performance indicators."
+      },
+      "highlights": {
+        "fr": [
+          "Indicateurs clés en cartes : unités vendues, total des ventes, marge moyenne, bénéfice d'exploitation",
+          "Répartition des ventes par méthode de vente (graphique en anneau)",
+          "Comparatif des ventes par région (barres groupées)",
+          "Évolution mensuelle des ventes (aires empilées)"
+        ],
+        "en": [
+          "Key metric cards: units sold, total sales, average margin, operating profit",
+          "Sales breakdown by sales method (donut chart)",
+          "Sales comparison by region (grouped bars)",
+          "Monthly sales trend (stacked area)"
+        ]
+      },
+      "chart": { "type": "mixed", "categories": [], "byCategory": [], "months": [], "monthsEn": [], "byMonth": [] },
+      "file": ""
+    },
+    {
+      "id": "powerbi-analyse-dax",
+      "title": { "fr": "Analyse DAX — Marges & Revenus", "en": "DAX Analysis — Margins & Revenue" },
+      "period": "2025",
+      "tools": ["Power BI Desktop", "DAX"],
+      "description": {
+        "fr": "Table croisée dynamique construite autour de mesures DAX personnalisées pour l'analyse de rentabilité.",
+        "en": "Pivot table built around custom DAX measures for profitability analysis."
+      },
+      "highlights": {
+        "fr": [
+          "5 mesures DAX : Revenu Total, Marque unique, % Marge Profit, Revenu par marque, Profit",
+          "Analyse de la répartition du profit par marque"
+        ],
+        "en": [
+          "5 DAX measures: Total Revenue, Unique Brand, Profit Margin %, Revenue per Brand, Profit",
+          "Profit breakdown analysis by brand"
+        ]
+      },
+      "chart": { "type": "mixed", "categories": [], "byCategory": [], "months": [], "monthsEn": [], "byMonth": [] },
+      "file": ""
     }
   ],
   "contact": {
